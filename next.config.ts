@@ -20,6 +20,9 @@ const nextConfig: NextConfig = {
       }, 
       {
         hostname: "assets.gadgetandgear.com"
+      }, 
+      {
+        hostname: "www.mobiledokan.co"
       }
     ],
   },
