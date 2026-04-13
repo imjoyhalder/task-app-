@@ -10,9 +10,9 @@ import Link from "next/link";
 
 const menuList = [
   { name: "Home", href: "/dashboard" },
-  { name: "Orders", href: "/dashboard/orders" },
-  { name: "Cart", href: "/dashboard/cart" },
-  { name: "Settings", href: "/dashboard/settings" },
+  { name: "Orders", href: "/dashboard" },
+  { name: "Cart", href: "/dashboard" },
+  { name: "Settings", href: "/dashboard" },
 ];
 
 export default function AppSidebar() {

@@ -1,7 +1,28 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.startech.com.bd',
+        port: '',
+        pathname: '/**', 
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.ryans.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        hostname: "ddfndelma2gpn.cloudfront.net"
+      }, 
+      {
+        hostname: "assets.gadgetandgear.com"
+      }
+    ],
+  },
 };
 
 export default nextConfig;
