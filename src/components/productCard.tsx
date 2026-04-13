@@ -1,5 +1,6 @@
 // components/ProductCard.tsx
 import Image from "next/image";
+import { Button } from "./ui/button";
 
 interface ProductProps {
   _id: string;
@@ -81,7 +82,14 @@ const ProductCard = ({
 
         
         </div>
+
+        <div>
+            <Button>Add to cart</Button>
+        </div>
+        
       </div>
+
+
     </div>
   );
 };
