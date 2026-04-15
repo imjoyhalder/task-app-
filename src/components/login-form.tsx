@@ -59,7 +59,6 @@ export function LoginForm({ className, ...props }: React.ComponentProps<"div">) 
                 />
               </Field>
               <Field>
-                {/* Button automatically shows loading state when isPending is true */}
                 <Button type="submit" disabled={isPending}>
                   {isPending ? "Logging in..." : "Login"}
                 </Button>
@@ -79,13 +78,13 @@ export function LoginForm({ className, ...props }: React.ComponentProps<"div">) 
               </FieldDescription>
             </FieldGroup>
           </form>
-          {/* ... image block remains unchanged ... */}
+          
           <div className="relative hidden bg-muted md:block">
             <img src="/placeholder.svg" alt="Image" className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale" />
           </div>
         </CardContent>
       </Card>
-      {/* ... footer remains unchanged ... */}
+      
     </div>
   )
 }
